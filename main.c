@@ -3,6 +3,7 @@
 int main(int argc, char const *argv[]) {
 uint8_t myVal = 0;
 uint8_t myConst = 0;
+uint8_t lastVar = 0;
 
 
 for(;;)
