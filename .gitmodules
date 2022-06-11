@@ -1,0 +1,3 @@
+[submodule "lib-maincode"]
+	path = lib-maincode
+	url = https://github.com/dnaco/lib-maincode.git
