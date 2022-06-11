@@ -49,8 +49,11 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+static uint8_t somevariable = 0;
+
 static void arg_register_error(struct arg_end* end, void* parent, int error, const char* argval) {
-     printf("arg_register_error(%p,%p,%d,%s)\n",end,parent,error,argval); 
+     printf("arg_register_error(%p,%p,%d,%s)\n",end,parent,error,argval);
     if (end->count < end->hdr.maxcount) {
         end->error[end->count] = error;
         end->parent[end->count] = parent;
