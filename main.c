@@ -5,6 +5,8 @@ uint8_t myVal = 0;
 uint8_t myConst = 0;
 uint8_t lastVar = 0;
 
+//added new variable
+uint64_t somelargeVal;
 
 for(;;)
 {
