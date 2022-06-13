@@ -8,6 +8,9 @@ uint8_t lastVar = 0;
 //added new variable
 uint64_t somelargeVal;
 
+//added a new variable
+uint8_t somesmallVal;
+
 for(;;)
 {
   if(myVal > 5){
